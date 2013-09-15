@@ -9,15 +9,24 @@
     tools:context=".HomeScreenActivity" >
 
     <TextView
-        android:id="@+id/textview"
+        android:id="@+id/homescreentitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/homescreentitle" />
     <Button
+        android:id="@+id/createtournament"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/temp"
-        android:onClick="tempclick" 
-        android:layout_below="@id/textview"/>
+        android:text="@string/createtournament"
+        android:onClick="createTournaments" 
+        android:layout_below="@id/homescreentitle"/>
+    <Button
+        android:id="@+id/mytournaments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mytournaments"
+        android:onClick="viewTournaments"
+        android:layout_below="@id/createtournament"
+        />
 
 </RelativeLayout>

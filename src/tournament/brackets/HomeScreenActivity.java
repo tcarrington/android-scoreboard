@@ -21,7 +21,12 @@ public class HomeScreenActivity extends Activity {
 		return true;
 	}
 	
-	public void tempclick(View view) {
+	public void createTournament(View view) {
+		Intent intent = new Intent(this, ItemListActivity.class);
+		startActivity(intent);
+	}
+	
+	public void viewTournaments(View view) {
 		Intent intent = new Intent(this, ItemListActivity.class);
 		startActivity(intent);
 	}
