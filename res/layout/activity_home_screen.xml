@@ -9,8 +9,15 @@
     tools:context=".HomeScreenActivity" >
 
     <TextView
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp"
+        android:onClick="tempclick" 
+        android:layout_below="@id/textview"/>
 
 </RelativeLayout>
