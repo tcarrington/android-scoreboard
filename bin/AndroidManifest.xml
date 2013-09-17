@@ -41,7 +41,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="tournament.brackets.CreateTournamentSettings"
+            android:name="tournament.brackets.BuildTournamentSettingsActivity"
             android:label="@string/title_activity_create_tournament_settings"
             android:parentActivityName="tournament.brackets.HomeScreenActivity" >
             <meta-data
