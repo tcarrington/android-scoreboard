@@ -13,20 +13,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/homescreentitle" />
+    
     <Button
         android:id="@+id/createtournament"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/createtournament"
-        android:onClick="createTournaments" 
-        android:layout_below="@id/homescreentitle"/>
+        android:onClick="createTournament" 
+        android:layout_below="@id/homescreentitle" />
+    
     <Button
         android:id="@+id/mytournaments"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mytournaments"
         android:onClick="viewTournaments"
-        android:layout_below="@id/createtournament"
-        />
+        android:layout_below="@id/createtournament" />
 
 </RelativeLayout>

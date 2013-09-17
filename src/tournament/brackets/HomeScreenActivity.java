@@ -22,7 +22,7 @@ public class HomeScreenActivity extends Activity {
 	}
 	
 	public void createTournament(View view) {
-		Intent intent = new Intent(this, ItemListActivity.class);
+		Intent intent = new Intent(this, CreateTournamentSettings.class);
 		startActivity(intent);
 	}
 	
