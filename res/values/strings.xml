@@ -20,6 +20,7 @@
     <string name="title_activity_create_tournament_setting">CreateTournamentSetting</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_create_tournament_settings">CreateTournamentSettings</string>
+    <string name="temp_quick_match_name">tempquickmatchname</string>
 
 
 </resources>

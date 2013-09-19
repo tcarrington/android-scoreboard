@@ -20,7 +20,12 @@ public class HomeScreenActivity extends Activity {
 		//getMenuInflater().inflate(R.menu.home_screen, menu);
 		return true;
 	}
-	
+
+    public void quickMatch(View view) {
+        Intent intent = new Intent(this, QuickMatchActivity.class);
+        startActivity(intent);
+    }
+
 	public void createTournament(View view) {
 		Intent intent = new Intent(this, BuildTournamentSettingsActivity.class);
 		startActivity(intent);

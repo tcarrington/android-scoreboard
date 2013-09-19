@@ -36,7 +36,6 @@
             android:theme="@style/FullscreenTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -47,6 +46,14 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="tournament.brackets.HomeScreenActivity" />
+        </activity>
+        <activity
+                android:name="tournament.brackets.QuickMatchActivity"
+                android:label="@string/title_activity_create_tournament_settings"
+                android:parentActivityName="tournament.brackets.HomeScreenActivity" >
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="tournament.brackets.HomeScreenActivity" />
         </activity>
     </application>
 
