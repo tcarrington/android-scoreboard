@@ -22,10 +22,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca135fb-fbbd-43de-b001-680631445ac2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_build_tournament_settings.xml" afterPath="$PROJECT_DIR$/res/layout/activity_build_tournament_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_home_screen.xml" afterPath="$PROJECT_DIR$/res/layout/activity_home_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
     </list>
     <ignored path="TournamentBrackets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,7 +106,9 @@
         <entry file="file://$PROJECT_DIR$/src/tournament/brackets/HomeScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,12 +119,22 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="40" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.8321678" vertical-offset="119" max-vertical-offset="1037">
+            <state line="25" column="57" selection-start="704" selection-end="926" vertical-scroll-proportion="0.46503496" vertical-offset="26" max-vertical-offset="1258">
               <folding>
-                <element signature="e#692#717#0" expanded="true" />
-                <element signature="e#1255#1281#0" expanded="true" />
-                <element signature="e#1581#1604#0" expanded="true" />
+                <element signature="e#898#923#0" expanded="true" />
+                <element signature="e#1367#1384#0" expanded="true" />
+                <element signature="e#1777#1791#0" expanded="true" />
+                <element signature="e#2127#2141#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="47" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,6 +159,7 @@
       <list>
         <option value="$PROJECT_DIR$/res/layout/activity_build_tournament_settings.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_home_screen.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -233,6 +244,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TournamentBrackets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TournamentBrackets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -246,6 +275,7 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="531" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
@@ -499,7 +529,9 @@
     <entry file="file://$PROJECT_DIR$/src/tournament/brackets/HomeScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="680">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -566,6 +598,15 @@
     <entry file="file://$PROJECT_DIR$/src/tournament/brackets/HomeScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="47" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
@@ -575,11 +616,12 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="40" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.8321678" vertical-offset="119" max-vertical-offset="1037">
+        <state line="25" column="57" selection-start="704" selection-end="926" vertical-scroll-proportion="0.46503496" vertical-offset="26" max-vertical-offset="1258">
           <folding>
-            <element signature="e#692#717#0" expanded="true" />
-            <element signature="e#1255#1281#0" expanded="true" />
-            <element signature="e#1581#1604#0" expanded="true" />
+            <element signature="e#898#923#0" expanded="true" />
+            <element signature="e#1367#1384#0" expanded="true" />
+            <element signature="e#1777#1791#0" expanded="true" />
+            <element signature="e#2127#2141#0" expanded="true" />
           </folding>
         </state>
       </provider>

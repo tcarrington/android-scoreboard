@@ -13,13 +13,19 @@
         android:layout_width="0dp"
         android:layout_height="fill_parent"
         android:layout_weight="1" >
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center" >
         
-	    <TextView
-	        android:id="@+id/homescreentitle"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:text="@string/homescreentitle" />
-	    
+            <TextView
+                android:id="@+id/homescreentitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/homescreentitle" />
+
+        </RelativeLayout>
     </LinearLayout>
     
     <LinearLayout
@@ -30,15 +36,23 @@
 	    
 	    <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:gravity="center" >
 
             <Button
-                android:id="@+id/buildtournament"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/createtournament"
-                android:onClick="createTournament"
-                android:layout_weight="1" />
+                    android:id="@+id/quickmatch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quickmatch"
+                    android:onClick="quickmatch" />
+
+            <Button
+                    android:id="@+id/buildtournament"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/createtournament"
+                    android:onClick="createTournament"
+                    android:layout_below="@id/quickmatch" />
 
             <Button
                 android:id="@+id/mytournaments"
@@ -46,8 +60,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mytournaments"
                 android:onClick="viewTournaments"
-                android:layout_below="@id/buildtournament"
-                android:layout_weight="1"/>
+                android:layout_below="@id/buildtournament" />
         </RelativeLayout>
 		
 	</LinearLayout>
