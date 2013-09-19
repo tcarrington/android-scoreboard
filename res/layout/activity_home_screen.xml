@@ -23,7 +23,9 @@
                 android:id="@+id/homescreentitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/homescreentitle" />
+                android:text="@string/homescreentitle"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
 
         </RelativeLayout>
     </LinearLayout>
@@ -31,7 +33,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="fill_parent"
-        android:layout_weight="1" 
+        android:layout_weight="1"
         android:orientation="horizontal" >
 	    
 	    <RelativeLayout
@@ -44,7 +46,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/quickmatch"
-                    android:onClick="quickmatch" />
+                    android:onClick="quickmatch"
+                    android:textSize="20dp"
+                    android:layout_centerInParent="true"/>
 
             <Button
                     android:id="@+id/buildtournament"
@@ -52,7 +56,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/createtournament"
                     android:onClick="createTournament"
-                    android:layout_below="@id/quickmatch" />
+                    android:layout_below="@id/quickmatch"
+                    android:textSize="20dp"
+                    android:layout_centerInParent="true"/>
 
             <Button
                 android:id="@+id/mytournaments"
@@ -60,7 +66,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mytournaments"
                 android:onClick="viewTournaments"
-                android:layout_below="@id/buildtournament" />
+                android:layout_below="@id/buildtournament"
+                android:textSize="20dp"
+                android:layout_centerInParent="true"/>
         </RelativeLayout>
 		
 	</LinearLayout>
