@@ -8,15 +8,24 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 tools:context=".QuickMatchActivity" >
 
-    <TextView
-            android:layout_width="wrap_content"
+    <RelativeLayout
+        android:id="@+id/headerlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello_world" />
+    </RelativeLayout>
+    <ScrollView
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hello_world" />
-
+            android:layout_below="@id/headerlayout"
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="quickmatch page filler" />
+            android:text="filler text goes here" />
 
 
 </RelativeLayout>
