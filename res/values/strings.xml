@@ -10,6 +10,15 @@
     <string name="quickmatch">QUICK\nMATCH</string>
     <string name="title_activity_home_screen">SCOREBOARD++</string>
 
+    <!-- Quickmatch Setup Page -->
+    <string name="quickmatchsetup">QuickMatch Options</string>
+    <string name="playername">Player's Name</string>
+    <string name="playernameinput">Player 1</string>
+    <string name="addplayer">+ Player</string>
+
+
+
+
 
     <string name="title_item_detail">Item Detail</string>
     <string name="title_activity_home_page">HomePage</string>

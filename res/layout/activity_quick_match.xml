@@ -8,24 +8,40 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 tools:context=".QuickMatchActivity" >
 
-    <RelativeLayout
-        android:id="@+id/headerlayout"
+    <LinearLayout
+        android:id="@+id/headerquickmatch"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:gravity="center">
         <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/hello_world" />
-    </RelativeLayout>
-    <ScrollView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/headerlayout"
-    <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="filler text goes here" />
+            android:text="@string/quickmatchsetup"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textIsSelectable="false" />
+    </LinearLayout>
 
+    <TextView
+        android:id="@+id/playername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerquickmatch"
+        android:text="@string/playername"/>
+
+    <EditText
+        android:id="@+id/playernameinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerquickmatch"
+        android:layout_toRightOf="@id/playername"
+        android:hint="@string/playernameinput" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerquickmatch"
+        android:layout_toRightOf="@id/playernameinput"
+        android:text="@string/addplayer" />
 
 </RelativeLayout>

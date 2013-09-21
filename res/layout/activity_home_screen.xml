@@ -43,7 +43,7 @@
 
             <Button
                     android:id="@+id/quickmatch"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/quickmatch"
                     android:onClick="quickMatch"
@@ -52,7 +52,7 @@
 
             <Button
                     android:id="@+id/buildtournament"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/createtournament"
                     android:onClick="createTournament"
@@ -62,7 +62,7 @@
 
             <Button
                 android:id="@+id/mytournaments"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/mytournaments"
                 android:onClick="viewTournaments"
