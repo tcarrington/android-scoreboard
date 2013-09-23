@@ -13,6 +13,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,6 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/headerquickmatch"
         android:layout_toRightOf="@id/playernameinput"
-        android:text="@string/addplayer" />
+        android:text="@string/addplayer"
+        android:id="@+id/button" />
+
 
 </RelativeLayout>
