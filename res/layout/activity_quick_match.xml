@@ -19,6 +19,17 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center" >
+            <!-- fix positioning of elements , right/left/top/bottom -->
+            <TextView
+                android:id="@+id/matchname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/matchname"/>
+            <EditText
+                android:id="@+id/playernameinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/matchnameinput" />
 
             <TextView
                 android:id="@+id/playername"

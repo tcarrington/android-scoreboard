@@ -36,9 +36,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca135fb-fbbd-43de-b001-680631445ac2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_home_screen.xml" afterPath="$PROJECT_DIR$/res/layout/activity_home_screen.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_quick_match.xml" afterPath="$PROJECT_DIR$/res/layout/activity_quick_match.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
     </list>
     <ignored path="TournamentBrackets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,11 +122,13 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="49" selection-start="935" selection-end="935" vertical-scroll-proportion="0.46282527" vertical-offset="193" max-vertical-offset="1037">
+            <state line="21" column="72" selection-start="785" selection-end="785" vertical-scroll-proportion="0.33643124" vertical-offset="176" max-vertical-offset="1224">
               <folding>
-                <element signature="e#915#935#0" expanded="true" />
-                <element signature="e#1203#1228#0" expanded="true" />
-                <element signature="e#1450#1469#0" expanded="true" />
+                <element signature="e#986#1005#0" expanded="true" />
+                <element signature="e#1214#1238#0" expanded="true" />
+                <element signature="e#1444#1464#0" expanded="true" />
+                <element signature="e#1732#1757#0" expanded="true" />
+                <element signature="e#1979#1998#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,7 +137,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="67" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+            <state line="14" column="45" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -174,8 +175,8 @@
         <option value="$PROJECT_DIR$/src/tournament/brackets/HomeScreenActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_home_screen.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_quick_match.xml" />
       </list>
     </option>
@@ -632,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="67" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_home_screen.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -649,16 +643,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="45" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_quick_match.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="935" selection-end="935" vertical-scroll-proportion="0.46282527" vertical-offset="193" max-vertical-offset="1037">
+        <state line="21" column="72" selection-start="785" selection-end="785" vertical-scroll-proportion="0.33643124" vertical-offset="176" max-vertical-offset="1224">
           <folding>
-            <element signature="e#915#935#0" expanded="true" />
-            <element signature="e#1203#1228#0" expanded="true" />
-            <element signature="e#1450#1469#0" expanded="true" />
+            <element signature="e#986#1005#0" expanded="true" />
+            <element signature="e#1214#1238#0" expanded="true" />
+            <element signature="e#1444#1464#0" expanded="true" />
+            <element signature="e#1732#1757#0" expanded="true" />
+            <element signature="e#1979#1998#0" expanded="true" />
           </folding>
         </state>
       </provider>
