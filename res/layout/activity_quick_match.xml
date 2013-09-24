@@ -68,13 +68,13 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="fill_parent"
-            android:layout_below="playerinfo" >
+            android:layout_below="@id/playerinfo" >
 
             <Button
                 android:id="@+id/start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/start"
+                android:text="@string/start" />
         </RelativeLayout>
     </LinearLayout>
 
@@ -88,7 +88,7 @@
         <ListView
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:id="@+id/listView" />
+            android:id="@+id/playerslistview" />
     </LinearLayout>
 
 
