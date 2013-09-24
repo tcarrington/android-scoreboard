@@ -12,54 +12,83 @@
     <LinearLayout
         android:id="@+id/headerquickmatch"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
         <RelativeLayout
+            android:id="@+id/matchnameheader"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:gravity="center" >
+            android:layout_height="wrap_content" >
             <!-- fix positioning of elements , right/left/top/bottom -->
             <TextView
                 android:id="@+id/matchname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/matchname"/>
+
             <EditText
                 android:id="@+id/playernameinput"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/matchname"
                 android:hint="@string/matchnameinput" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/playerinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/matchnameheader"
+            android:gravity="center" >
 
             <TextView
                 android:id="@+id/playername"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/playername"/>
+                android:text="@string/playername" />
 
             <EditText
                 android:id="@+id/playernameinput"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/playername"
-                android:hint="@string/playernameinput" />
+                android:hint="@string/playernameinput"
+                android:layout_alignParentTop="false" />
 
             <Button
+                android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/playernameinput"
-                android:text="@string/addplayer"
-                android:id="@+id/button" />
+                android:text="@string/addplayer" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="playerinfo" >
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
         </RelativeLayout>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/headerquickmatch"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:layout_weight="1">
 
 
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/listView" />
     </LinearLayout>
 
 
