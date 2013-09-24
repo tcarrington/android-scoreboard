@@ -74,7 +74,8 @@
                 android:id="@+id/start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/start" />
+                android:text="@string/start"
+                android:onClick="addPlayerItems"/>
         </RelativeLayout>
     </LinearLayout>
 
@@ -86,9 +87,10 @@
 
 
         <ListView
+            android:id="@id/android:list"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:id="@+id/playerslistview" />
+            android:drawSelectorOnTop="false" />
     </LinearLayout>
 
 
