@@ -15,8 +15,6 @@ public class QuickMatchActivity extends ListActivity {
 
     ArrayAdapter<String> adapter;
 
-    int clickCounter = 0;
-
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quick_match);
@@ -33,7 +31,6 @@ public class QuickMatchActivity extends ListActivity {
 
     public void addPlayerItems(View view) {
         playerListItems.add("Clicked test");
-        clickCounter++;
         adapter.notifyDataSetChanged();
     }
 }
