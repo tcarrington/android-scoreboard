@@ -62,7 +62,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/playernameinput"
-                android:text="@string/addplayer" />
+                android:text="@string/addplayer"
+                android:onClick="addPlayerItems"/>
 
         </RelativeLayout>
 
@@ -75,8 +76,7 @@
                 android:id="@+id/start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/start"
-                android:onClick="addPlayerItems"/>
+                android:text="@string/start" />
         </RelativeLayout>
     </LinearLayout>
 

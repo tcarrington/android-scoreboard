@@ -18,7 +18,7 @@ public class QuickMatchActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quick_match);
-        adapter = new ArrayAdapter<String>(this, android.R.id.list, playerListItems);
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, playerListItems);
         setListAdapter(adapter);
     }
 
@@ -30,7 +30,7 @@ public class QuickMatchActivity extends ListActivity {
     }
 
     public void addPlayerItems(View view) {
-        playerListItems.add("Clicked test");
+        playerListItems.add("Clicked");
         adapter.notifyDataSetChanged();
     }
 }
