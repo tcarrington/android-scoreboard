@@ -37,10 +37,28 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/matchtype"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/matchnameheader">
+            <TextView
+                android:id="@+id/matchtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/matchtype"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/matchtype"/>
+        </RelativeLayout>
+
+        <RelativeLayout
             android:id="@+id/playerinfo"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/matchnameheader"
+            android:layout_below="@id/matchtype"
             android:gravity="center" >
 
             <TextView
@@ -77,6 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/start" />
+
         </RelativeLayout>
     </LinearLayout>
 
