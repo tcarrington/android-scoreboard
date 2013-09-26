@@ -34,5 +34,6 @@ public class QuickMatchActivity extends ListActivity {
         String playerName = ((EditText)findViewById(R.id.playernameinput)).getText().toString();
         playerListItems.add(playerName);
         adapter.notifyDataSetChanged();
+        ((EditText) findViewById(R.id.playernameinput)).setText("");
     }
 }

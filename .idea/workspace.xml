@@ -39,8 +39,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca135fb-fbbd-43de-b001-680631445ac2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_quick_match.xml" afterPath="$PROJECT_DIR$/res/layout/activity_quick_match.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" />
     </list>
     <ignored path="TournamentBrackets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,7 +133,7 @@
       <file leaf-file-name="QuickMatchActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="43" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.61330324" vertical-offset="0" max-vertical-offset="887">
+            <state line="36" column="8" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.6899662" vertical-offset="0" max-vertical-offset="887">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#377#385#0" expanded="true" />
@@ -635,7 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="43" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.61330324" vertical-offset="0" max-vertical-offset="887">
+        <state line="36" column="8" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.6899662" vertical-offset="0" max-vertical-offset="887">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#377#385#0" expanded="true" />
