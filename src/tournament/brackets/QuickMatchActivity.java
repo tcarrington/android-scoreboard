@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 
 import java.util.ArrayList;
 
@@ -30,7 +31,8 @@ public class QuickMatchActivity extends ListActivity {
     }
 
     public void addPlayerItems(View view) {
-        playerListItems.add("Clicked");
+        String playerName = ((EditText)findViewById(R.id.playernameinput)).getText().toString();
+        playerListItems.add(playerName);
         adapter.notifyDataSetChanged();
     }
 }
