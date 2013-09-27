@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="match_array">
+        <item>-Default-</item>
+        <item>Soccer</item>
+        <item>Basketball</item>
+        <item>Football</item>
+        <item>Tennis</item>
+        <item>Cricket</item>
+        <item>Baseball</item>
+        <item>Volleyball</item>
+    </string-array>
+</resources>

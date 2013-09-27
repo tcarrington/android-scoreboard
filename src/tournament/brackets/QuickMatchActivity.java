@@ -16,6 +16,8 @@ public class QuickMatchActivity extends ListActivity {
 
     ArrayAdapter<String> adapter;
 
+    int totalPlayers = 0;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quick_match);
@@ -32,7 +34,7 @@ public class QuickMatchActivity extends ListActivity {
 
     public void addPlayerItems(View view) {
         String playerName = ((EditText)findViewById(R.id.playernameinput)).getText().toString();
-        playerListItems.add(playerName);
+        playerListItems.add(playerName + " " + ++totalPlayers);
         adapter.notifyDataSetChanged();
         ((EditText) findViewById(R.id.playernameinput)).setText("");
     }

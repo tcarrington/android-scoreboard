@@ -52,8 +52,10 @@
                     android:id="@+id/spinner"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/matchtype"/>
+                    android:layout_toRightOf="@id/matchtype"
+                    android:entries="@array/match_array"/>
             </RelativeLayout>
+
             <RelativeLayout
                 android:id="@+id/playerinfo"
                 android:layout_width="fill_parent"
@@ -95,7 +97,8 @@
                     android:id="@+id/start"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/start" />
+                    android:text="@string/start"
+                    android:onClick="startMatch"/>
 
             </RelativeLayout>
     </LinearLayout>
