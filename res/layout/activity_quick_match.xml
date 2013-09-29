@@ -8,20 +8,17 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".HomeScreenActivity" >
+    tools:context=".HomeScreenActivity"
+    android:baselineAligned="false">
 
     <LinearLayout
-        android:id="@+id/headerquickmatch"
         android:layout_width="0dp"
         android:layout_height="fill_parent"
         android:layout_weight="1"
         android:orientation="vertical">
             <RelativeLayout
-                android:id="@+id/matchnameheader"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="bottom">
-                <!-- fix positioning of elements , right/left/top/bottom -->
+                android:layout_height="wrap_content">
                 <TextView
                     android:id="@+id/matchname"
                     android:layout_width="wrap_content"
@@ -37,10 +34,8 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:id="@+id/matchtype"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/matchnameheader">
+                android:layout_height="wrap_content" >
 
                 <TextView
                     android:id="@+id/matchtype"
@@ -57,11 +52,8 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:id="@+id/playerinfo"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/matchtype"
-                android:gravity="center" >
+                android:layout_height="wrap_content" >
 
                 <TextView
                     android:id="@+id/playername"
@@ -90,7 +82,6 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:layout_below="@id/playerinfo"
                 android:gravity="center">
 
                 <Button
@@ -104,11 +95,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/headerquickmatch"
         android:layout_width="0dp"
         android:layout_height="fill_parent"
-        android:layout_weight="1">
-
+        android:layout_weight="1"
+        android:orientation="vertical">
 
         <ListView
             android:id="@android:id/list"

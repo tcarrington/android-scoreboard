@@ -12,7 +12,7 @@
 
     <!-- Quickmatch Setup Page -->
     <string name="matchname">Match Name:</string>
-    <string name="matchnameinput">Soccer Game</string>
+    <string name="matchnameinput">USA vs. UK</string>
     <string name="playername">Player\'s Name</string>
     <string name="playernameinput">Player 1</string>
     <string name="addplayer">+ Player</string>
