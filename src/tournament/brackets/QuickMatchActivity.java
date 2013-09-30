@@ -2,11 +2,14 @@ package tournament.brackets;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 
 import java.util.ArrayList;
 
@@ -32,10 +35,27 @@ public class QuickMatchActivity extends ListActivity {
         return true;
     }
 
+    //add players to list (dynamic)
     public void addPlayerItems(View view) {
         String playerName = ((EditText)findViewById(R.id.playernameinput)).getText().toString();
         playerListItems.add(playerName + " " + ++totalPlayers);
         adapter.notifyDataSetChanged();
         ((EditText) findViewById(R.id.playernameinput)).setText("");
+    }
+
+    public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
+        parent.getItemAtPosition(pos);
+    }
+    //create match. save and push data to target activity (QuickMatchSBActivity.java)
+    public void startMatch(View view) {
+        Intent intent = new Intent(this, QuickMatchSBActivity.class);
+        Bundle bundle = new Bundle();
+        String matchType = ((Spinner) findViewById(R.id.spinner)).getSelectedItem().toString();
+
+        bundle.putInt("NUMBER_OF_PLAYERS", totalPlayers);
+        bundle.putString("MATCH_TYPE", matchType);
+        bundle.putStringArrayList("LIST_OF_PLAYERS", playerListItems);
+        intent.putExtra(bundle);
+        startActivity(intent);
     }
 }
