@@ -43,9 +43,6 @@ public class QuickMatchActivity extends ListActivity {
         ((EditText) findViewById(R.id.playernameinput)).setText("");
     }
 
-    public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
-        parent.getItemAtPosition(pos);
-    }
     //create match. save and push data to target activity (QuickMatchSBActivity.java)
     public void startMatch(View view) {
         Intent intent = new Intent(this, QuickMatchSBActivity.class);
@@ -55,7 +52,7 @@ public class QuickMatchActivity extends ListActivity {
         bundle.putInt("NUMBER_OF_PLAYERS", totalPlayers);
         bundle.putString("MATCH_TYPE", matchType);
         bundle.putStringArrayList("LIST_OF_PLAYERS", playerListItems);
-        intent.putExtra(bundle);
+        intent.putExtra("BUNDLE_INFO", bundle);
         startActivity(intent);
     }
 }

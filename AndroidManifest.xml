@@ -55,7 +55,14 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="tournament.brackets.HomeScreenActivity" />
         </activity>
-        <activity android:name=".QuickMatchSBActivity" />
+        <activity
+            android:name="tournament.brackets.QuickMatchSBActivity"
+            android:label="@string/title_activity_create_tournament_settings"
+            android:parentActivityName="tournament.brackets.QuickMatchActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tournament.brackets.QuickMatchActivity" />
+        </activity>
     </application>
 
 </manifest>
