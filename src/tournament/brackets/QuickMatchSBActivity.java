@@ -24,5 +24,8 @@ public class QuickMatchSBActivity extends Activity {
         setContentView(textView);
     }
 
+    //need to dynamically build environment based on # of players and match type
+    //will need a timer and start/stop times for most game types
+
 }
 
