@@ -20,7 +20,8 @@ public class QuickMatchSBActivity extends Activity {
         TextView textView = new TextView(this);
         textView.setTextSize(40);
         textView.setText(matchType);
-
+        //save data to local database and achive, create link to game on match history page
+        //dynamically update match history page, need sort by color
         setContentView(textView);
     }
 
