@@ -19,8 +19,9 @@
     <string name="start">START!</string>
     <string name="matchtype">Match Type:</string>
 
+    <!-- Quickmatch SB Activity -->
 
-
+    <!-- History page with fragement -->
 
 
     <string name="title_item_detail">Item Detail</string>
