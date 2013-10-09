@@ -42,23 +42,14 @@
             android:gravity="center" >
 
             <Button
-                    android:id="@+id/quickmatch"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quickmatch"
-                    android:onClick="quickMatch"
-                    android:textSize="20dp"
-                    android:layout_centerInParent="true"/>
+                android:id="@+id/quickmatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quickmatch"
+                android:onClick="quickMatch"
+                android:textSize="20dp"
+                android:layout_centerInParent="true"/>
 
-            <Button
-                    android:id="@+id/buildtournament"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/createtournament"
-                    android:onClick="createTournament"
-                    android:layout_below="@id/quickmatch"
-                    android:textSize="20dp"
-                    android:layout_centerInParent="true"/>
 
             <Button
                 android:id="@+id/mytournaments"
@@ -66,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mytournaments"
                 android:onClick="viewTournaments"
-                android:layout_below="@id/buildtournament"
+                android:layout_below="@id/quickmatch"
                 android:textSize="20dp"
                 android:layout_centerInParent="true"/>
         </RelativeLayout>
