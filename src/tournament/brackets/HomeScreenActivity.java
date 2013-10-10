@@ -25,11 +25,6 @@ public class HomeScreenActivity extends Activity {
         Intent intent = new Intent(this, QuickMatchActivity.class);
         startActivity(intent);
     }
-
-	public void createTournament(View view) {
-		Intent intent = new Intent(this, BuildTournamentSettingsActivity.class);
-		startActivity(intent);
-	}
 	
 	public void viewTournaments(View view) {
 		Intent intent = new Intent(this, ItemListActivity.class);
