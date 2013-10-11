@@ -26,7 +26,7 @@ public class HomeScreenActivity extends Activity {
         startActivity(intent);
     }
 	
-	public void viewTournaments(View view) {
+	public void viewMatches(View view) {
 		Intent intent = new Intent(this, ItemListActivity.class);
 		startActivity(intent);
 	}

@@ -55,8 +55,8 @@
                 android:id="@+id/mytournaments"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/mytournaments"
-                android:onClick="viewTournaments"
+                android:text="@string/mymatches"
+                android:onClick="viewMatches"
                 android:layout_below="@id/quickmatch"
                 android:textSize="20dp"
                 android:layout_centerInParent="true"/>

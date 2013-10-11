@@ -5,7 +5,7 @@
 
     <!-- HomeScreenActivity String Elements -->
     <string name="createtournament">CREATE\nTOURNAMENT</string>
-    <string name="mytournaments">MY\nTOURNAMENTS</string>
+    <string name="mymatches">MY\nMATCHES</string>
     <string name="homescreentitle">SCOREBOARD++</string>
     <string name="quickmatch">QUICK\nMATCH</string>
     <string name="title_activity_home_screen">SCOREBOARD++</string>
