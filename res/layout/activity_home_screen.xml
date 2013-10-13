@@ -41,6 +41,7 @@
             android:layout_height="fill_parent"
             android:gravity="center" >
 
+            //style buttons with clear background and thick border on 2 adjacent sides
             <Button
                 android:id="@+id/quickmatch"
                 android:layout_width="match_parent"
