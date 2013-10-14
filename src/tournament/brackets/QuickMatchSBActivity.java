@@ -13,15 +13,16 @@ public class QuickMatchSBActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Intent intent = getIntent();
-        Bundle bundle = intent.getExtras();
-        String matchType = bundle.getString("MATCH_TYPE");
-        int totalPlayers = bundle.getInt("NUMBER_OF_PLAYERS");
-
+        //Intent intent = getIntent();
+        //Bundle bundle = intent.getExtras();
+        //int totalPlayers = bundle.getInt("NUMBER_OF_PLAYERS");
+        String matchType = getIntent().getStringExtra("MATCH_TYPE");
+        int totalPlayers = getIntent().getIntExtra("NUMBER_OF_PLAYERS", 1);
         TextView textView = new TextView(this);
         textView.setTextSize(40);
-        textView.setText(totalPlayers);
-        //save data to local database and achive, create link to game on match history page
+        //textView.setText(totalPlayers);
+        textView.setText(String.valueOf(totalPlayers));
+        //save data to local database and archive, create link to game on match history page
         //dynamically update match history page, need sort by color
         setContentView(textView);
     }
