@@ -53,6 +53,7 @@ public class QuickMatchActivity extends ListActivity {
         intent.putExtra("BUNDLE_INFO", bundle);*/
         intent.putExtra("MATCH_TYPE", matchType);
         intent.putExtra("NUMBER_OF_PLAYERS", totalPlayers);
+        intent.putExtra("LIST_OF_PLAYERS", playerListItems);
         startActivity(intent);
     }
 }
