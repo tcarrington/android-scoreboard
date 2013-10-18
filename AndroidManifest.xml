@@ -55,6 +55,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="tournament.brackets.QuickMatchActivity" />
         </activity>
+        <activity android:name=".SoccerActivity" />
     </application>
 
 </manifest>
