@@ -10,4 +10,8 @@
         android:layout_width="fill_parent"
         android:text="soccer is fun!" />
 
+    //2 col
+    //double stack scores (left)
+    //stats right side
+
 </LinearLayout>
