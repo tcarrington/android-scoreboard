@@ -3,14 +3,14 @@
 
     <string name="app_name">Tournament Brackets</string>
 
-    <!-- HomeScreenActivity String Elements -->
+    <!-- HomeScreen Activity -->
     <string name="createtournament">CREATE\nTOURNAMENT</string>
     <string name="mymatches">MY\nMATCHES</string>
     <string name="homescreentitle">SCOREBOARD++</string>
     <string name="quickmatch">QUICK\nMATCH</string>
     <string name="title_activity_home_screen">SCOREBOARD++</string>
 
-    <!-- Quickmatch Setup Page -->
+    <!-- Quickmatch Activity -->
     <string name="matchname">Match Name:</string>
     <string name="matchnameinput">USA vs. UK</string>
     <string name="playername">Player\'s Name</string>
@@ -19,7 +19,18 @@
     <string name="start">START!</string>
     <string name="matchtype">Match Type:</string>
 
-    <!-- History page with fragement -->
+    <!-- Soccer Activity -->
+    <string name="team_score">SCORE</string>
+    <string name="team_shots">SHOTS</string>
+    <string name="team_saves">SAVES</string>
+    <string name="increment_1">+1</string>
+    <string name="decrement_1">1</string>
+    <string name="clock">00:00:00</string>
+    <string name="zero">0</string>
+
+
+
+
 
     <string name="title_item_detail">Item Detail</string>
     <string name="title_activity_home_page">HomePage</string>
