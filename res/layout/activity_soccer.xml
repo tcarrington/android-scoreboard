@@ -12,10 +12,6 @@
         android:layout_height="fill_parent"
         android:layout_weight="1" >
 
-
-
-
-
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
@@ -42,7 +38,8 @@
                     android:text="@string/increment_1"
                     android:textSize="40sp"
                     android:textColor="#CC0000"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team1ScoreIncrement"/>
                 <Button
                     android:id="@+id/score_decrement_1"
                     android:layout_height="fill_parent"
@@ -51,7 +48,8 @@
                     android:text="@string/decrement_1"
                     android:textSize="40sp"
                     android:textColor="#CC0000"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team1ScoreDecrement"/>
             </RelativeLayout>
 
 
@@ -74,7 +72,8 @@
                     android:text="@string/increment_1"
                     android:textSize="40sp"
                     android:textColor="#CC0000"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team1ShotsIncrement"/>
                 <Button
                     android:id="@+id/shots_decrement_1"
                     android:layout_height="fill_parent"
@@ -83,7 +82,8 @@
                     android:text="@string/decrement_1"
                     android:textSize="40sp"
                     android:textColor="#CC0000"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team1ShotsDecrement"/>
 
             </RelativeLayout>
 
@@ -107,7 +107,8 @@
                     android:text="@string/increment_1"
                     android:textSize="40sp"
                     android:textColor="#CC0000"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team1SaveIncrement"/>
                 <Button
                     android:id="@+id/saves_decrement_1"
                     android:layout_height="fill_parent"
@@ -116,7 +117,8 @@
                     android:text="@string/decrement_1"
                     android:textSize="40sp"
                     android:textColor="#CC0000"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team2SaveDecrement"/>
             </RelativeLayout>
 
             <RelativeLayout
@@ -154,7 +156,8 @@
                     android:text="@string/increment_1"
                     android:textSize="40sp"
                     android:textColor="#0099CC"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team2ScoreIncrement"/>
                 <Button
                     android:id="@+id/score_decrement_2"
                     android:layout_height="fill_parent"
@@ -163,7 +166,8 @@
                     android:text="@string/decrement_1"
                     android:textSize="40sp"
                     android:textColor="#0099CC"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team2ScoreDecrement"/>
             </RelativeLayout>
 
 
@@ -188,7 +192,8 @@
                     android:text="@string/increment_1"
                     android:textSize="40sp"
                     android:textColor="#0099CC"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team2ShotsIncrement"/>
                 <Button
                     android:id="@+id/shots_decrement_2"
                     android:layout_height="fill_parent"
@@ -197,7 +202,8 @@
                     android:text="@string/decrement_1"
                     android:textSize="40sp"
                     android:textColor="#0099CC"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team2ShotsDecrement"/>
             </RelativeLayout>
 
             <RelativeLayout
@@ -220,7 +226,8 @@
                     android:text="@string/increment_1"
                     android:textSize="40sp"
                     android:textColor="#0099CC"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team2SavesIncrement"/>
                 <Button
                     android:id="@+id/saves_decrement_2"
                     android:layout_height="fill_parent"
@@ -229,7 +236,8 @@
                     android:text="@string/decrement_1"
                     android:textSize="40sp"
                     android:textColor="#0099CC"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:onClick="team2SavesDecrement"/>
             </RelativeLayout>
 
             <RelativeLayout
