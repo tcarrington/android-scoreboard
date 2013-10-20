@@ -43,17 +43,7 @@ public class QuickMatchActivity extends ListActivity {
 
     //create match. save and push data to target activity (QuickMatchSBActivity.java)
     public void startMatch(View view) {
-        Intent intent = new Intent(this, QuickMatchSBActivity.class);
-        //Bundle bundle = new Bundle();
-        String matchType = ((Spinner) findViewById(R.id.spinner)).getSelectedItem().toString();
-/*
-        bundle.putInt("NUMBER_OF_PLAYERS", totalPlayers);
-        bundle.putString("MATCH_TYPE", matchType);
-        bundle.putStringArrayList("LIST_OF_PLAYERS", playerListItems);
-        intent.putExtra("BUNDLE_INFO", bundle);*/
-        intent.putExtra("MATCH_TYPE", matchType);
-        intent.putExtra("NUMBER_OF_PLAYERS", totalPlayers);
-        intent.putExtra("LIST_OF_PLAYERS", playerListItems);
+        Intent intent = new Intent(this, SoccerActivity.class);
         startActivity(intent);
     }
 }
