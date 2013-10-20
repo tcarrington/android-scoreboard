@@ -12,13 +12,57 @@
         android:layout_height="fill_parent"
         android:layout_weight="1" >
 
+
+
+
+
         <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+        <!--
+        <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="1" >
 
             <TextView
-                android:id="@+id/score_text_2"
+                android:id="@+id/score_text_1"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="Score"
@@ -27,17 +71,20 @@
                 android:id="@+id/score_increment_1"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/score_text_1"
                 android:text="+1"
                 android:textSize="40dp"/>
             <Button
                 android:id="@+id/score_decrement_1"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/score_increment_1"
                 android:text="-1"
                 android:textSize="40dp" />
-        </LinearLayout>
 
-        <LinearLayout
+        </RelativeLayout>
+-->
+        <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="1" >
@@ -51,16 +98,18 @@
                 android:id="@+id/score_increment_2"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/score_text_2"
                 android:text="+1"
-                android:textSize="40dp"/>
+                android:textSize="40dp" />
             <Button
                 android:id="@+id/score_decrement_2"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/score_increment_2"
                 android:text="-1"
                 android:textSize="40dp" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
     </LinearLayout>
 
@@ -91,22 +140,20 @@
             android:layout_width="wrap_content"
             android:text="2nd"
             android:textSize="40dp" />
-        
+
         <TextView
             android:id="@+id/team_1_score"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="00"
-            android:textSize="40dp" />
+            android:textSize="60dp" />
 
         <TextView
             android:id="@+id/team_2_score"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="00"
-            android:textSize="40dp" />
-
-
+            android:textSize="60dp" />
 
     </LinearLayout>
 
