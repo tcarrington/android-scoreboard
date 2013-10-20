@@ -6,19 +6,34 @@ import java.util.Calendar;
  * Created by Taylor on 10/15/13.
  */
 public class MatchInformation {
-    //this will hold methods and primatives for matches, should only be inherited from
 
-    //timer
-    Calendar c = Calendar.getInstance();
+    int team1Score = 0;
+    int team2Score = 0;
 
-    public Calendar getDate() {
-        return c;
+    public int getTeam1Score(){
+        return team1Score;
     }
-    //winner, loser
-    //date
-    //match type
-    //number of players
 
-    //create entry for database
+    public int getTeam2Score(){
+        return team2Score;
+    }
+
+    public int getWinner(){
+        if(team1Score > team2Score){
+            return 1;
+        }
+        else if(team2Score > team1Score){
+            return 2;
+        }
+        return 0;
+    }
+
+    public void addPoint(int point){
+        team1Score+=point;
+    }
+
+    public void subPoint(int point){
+        team1Score-=point;
+    }
 
 }
