@@ -53,7 +53,8 @@
         </activity>
         <activity
             android:name="tournament.brackets.SoccerActivity" />
-            android:screenOrientation="landscape"
+        <activity android:name=".BasketballActivity" />
+        android:screenOrientation="landscape"
             android:label="@string/title_activity_create_tournament_settings"
             android:parentActivityName="tournament.brackets.HomeScreenActivity" >
             <meta-data
