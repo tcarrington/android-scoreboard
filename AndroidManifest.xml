@@ -55,6 +55,7 @@
             android:name="tournament.brackets.SoccerActivity" />
         <activity android:name=".BasketballActivity" />
         <activity android:name=".TennisActivity" />
+        <activity android:name=".FootballActivity" />
         android:screenOrientation="landscape"
             android:label="@string/title_activity_create_tournament_settings"
             android:parentActivityName="tournament.brackets.HomeScreenActivity" >
