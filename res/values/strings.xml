@@ -3,6 +3,14 @@
 
     <string name="app_name">Tournament Brackets</string>
 
+    <!-- Sport Names -->
+    <string name="soccer">soccer</string>
+    <string name="tennis">tennis</string>
+    <string name="backetball">basketball</string>
+    <string name="football">football</string>
+    <string name="baseball">baseball</string>
+
+
     <!-- HomeScreen Activity -->
     <string name="createtournament">CREATE\nTOURNAMENT</string>
     <string name="mymatches">MY\nMATCHES</string>
