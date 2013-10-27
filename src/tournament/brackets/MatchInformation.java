@@ -12,14 +12,10 @@ public class MatchInformation {
 
     int team1Score = 0;
     int team2Score = 0;
-
-    public int getTeam1Score(){
-        return team1Score;
-    }
-
-    public int getTeam2Score(){
-        return team2Score;
-    }
+    int team1Shots = 0;
+    int team2Shots = 0;
+    int team1Saves = 0;
+    int team2Saves = 0;
 
     public int getWinner(){
         if(team1Score > team2Score){
@@ -45,4 +41,32 @@ public class MatchInformation {
             team2Score-=point;
     }
 
+    public void addShot(int point, int team){
+        if(team == team1)
+            team1Shots+=point;
+        else if(team == team2)
+            team2Shots+=point;
+    }
+
+    public void subShot(int point, int team){
+        if(team == team1)
+            team1Shots-=point;
+        else if(team == team2)
+            team2Shots-=point;
+    }
+
+
+    public void addSave(int point, int team){
+        if(team == team1)
+            team1Saves+=point;
+        else if(team == team2)
+            team2Saves+=point;
+    }
+
+    public void subSave(int point, int team){
+        if(team == team1)
+            team1Saves-=point;
+        else if(team == team2)
+            team2Saves-=point;
+    }
 }
