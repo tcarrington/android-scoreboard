@@ -7,6 +7,9 @@ import java.util.Calendar;
  */
 public class MatchInformation {
 
+    int team1 = 1;
+    int team2 = 2;
+
     int team1Score = 0;
     int team2Score = 0;
 
@@ -20,20 +23,26 @@ public class MatchInformation {
 
     public int getWinner(){
         if(team1Score > team2Score){
-            return 1;
+            return team1;
         }
         else if(team2Score > team1Score){
-            return 2;
+            return team2;
         }
         return 0;
     }
 
-    public void addPoint(int point){
-        team1Score+=point;
+    public void addPoint(int point, int team){
+        if(team == team1)
+            team1Score+=point;
+        else if(team == team2)
+            team2Score+=point;
     }
 
-    public void subPoint(int point){
-        team1Score-=point;
+    public void subPoint(int point, int team){
+        if(team == team1)
+            team1Score-=point;
+        else if(team == team2)
+            team2Score-=point;
     }
 
 }

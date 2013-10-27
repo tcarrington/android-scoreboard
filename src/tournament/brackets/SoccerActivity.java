@@ -19,10 +19,27 @@ public class SoccerActivity extends Activity {
 
 
     public void team1ScoreIncrement(View view){
-        soccerInformation.addPoint(1);
-        int score = soccerInformation.getTeam1Score();
+        soccerInformation.addPoint(1, soccerInformation.team1);
         TextView textView =  (TextView) findViewById(R.id.team_1_score);
-        textView.setText(String.valueOf(score));
+        textView.setText(String.valueOf(soccerInformation.getTeam1Score()));
+    }
+
+    public void team2ScoreIncrement(View view){
+        soccerInformation.addPoint(1, soccerInformation.team2);
+        TextView textView =  (TextView) findViewById(R.id.team_2_score);
+        textView.setText(String.valueOf(soccerInformation.getTeam2Score()));
+    }
+
+    public void team1ScoreDecrement(View view){
+        soccerInformation.subPoint(1, soccerInformation.team1);
+        TextView textView =  (TextView) findViewById(R.id.team_1_score);
+        textView.setText(String.valueOf(soccerInformation.getTeam1Score()));
+    }
+
+    public void team2ScoreDecrement(View view){
+        soccerInformation.subPoint(1, soccerInformation.team2);
+        TextView textView =  (TextView) findViewById(R.id.team_2_score);
+        textView.setText(String.valueOf(soccerInformation.getTeam2Score()));
     }
 
 }
