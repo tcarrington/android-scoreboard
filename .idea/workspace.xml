@@ -47,13 +47,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca135fb-fbbd-43de-b001-680631445ac2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/MatchInformation.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/MatchInformation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_quick_match.xml" afterPath="$PROJECT_DIR$/res/layout/activity_quick_match.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_soccer.xml" afterPath="$PROJECT_DIR$/res/layout/activity_soccer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TournamentBrackets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -174,13 +168,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_soccer.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity_soccer.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_soccer.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="49" selection-start="6663" selection-end="6663" vertical-scroll-proportion="-14.88" vertical-offset="2331" max-vertical-offset="6936">
+            <state line="321" column="41" selection-start="13547" selection-end="13547" vertical-scroll-proportion="0.33288947" vertical-offset="5207" max-vertical-offset="7293">
               <folding>
                 <element signature="e#1541#1561#0" expanded="true" />
                 <element signature="e#1946#1967#0" expanded="true" />
@@ -199,24 +193,24 @@
                 <element signature="e#10499#10519#0" expanded="true" />
                 <element signature="e#10955#10976#0" expanded="true" />
                 <element signature="e#11491#11512#0" expanded="true" />
-                <element signature="e#12380#12395#0" expanded="true" />
-                <element signature="e#13597#13611#0" expanded="true" />
-                <element signature="e#13963#13977#0" expanded="true" />
-                <element signature="e#14453#14467#0" expanded="true" />
-                <element signature="e#14815#14835#0" expanded="true" />
-                <element signature="e#15139#15153#0" expanded="true" />
-                <element signature="e#15499#15513#0" expanded="true" />
-                <element signature="e#15915#15935#0" expanded="true" />
-                <element signature="e#16295#16309#0" expanded="true" />
+                <element signature="e#12575#12590#0" expanded="true" />
+                <element signature="e#14464#14478#0" expanded="true" />
+                <element signature="e#14830#14844#0" expanded="true" />
+                <element signature="e#15320#15334#0" expanded="true" />
+                <element signature="e#15682#15702#0" expanded="true" />
+                <element signature="e#16006#16020#0" expanded="true" />
+                <element signature="e#16366#16380#0" expanded="true" />
+                <element signature="e#16782#16802#0" expanded="true" />
+                <element signature="e#17162#17176#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoccerActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SoccerActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="919" selection-end="919" vertical-scroll-proportion="0.76992756" vertical-offset="85" max-vertical-offset="2023">
+            <state line="32" column="5" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2023">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,9 +258,9 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_quick_match.xml" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/MatchInformation.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_soccer.xml" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_soccer.xml" />
       </list>
     </option>
   </component>
@@ -620,7 +614,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39636752" sideWeight="0.5447691" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39636752" sideWeight="0.75589067" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,12 +623,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20358153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45523092" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24410933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.8302207" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13874066" sideWeight="0.5447691" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1388889" sideWeight="0.75589067" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23374176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -741,53 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_soccer.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="49" selection-start="6663" selection-end="6663" vertical-scroll-proportion="-14.88" vertical-offset="2331" max-vertical-offset="6936">
-          <folding>
-            <element signature="e#1541#1561#0" expanded="true" />
-            <element signature="e#1946#1967#0" expanded="true" />
-            <element signature="e#2482#2503#0" expanded="true" />
-            <element signature="e#3152#3172#0" expanded="true" />
-            <element signature="e#3557#3578#0" expanded="true" />
-            <element signature="e#4093#4114#0" expanded="true" />
-            <element signature="e#4764#4784#0" expanded="true" />
-            <element signature="e#5221#5242#0" expanded="true" />
-            <element signature="e#5758#5779#0" expanded="true" />
-            <element signature="e#7188#7208#0" expanded="true" />
-            <element signature="e#7644#7665#0" expanded="true" />
-            <element signature="e#8180#8201#0" expanded="true" />
-            <element signature="e#9294#9315#0" expanded="true" />
-            <element signature="e#9830#9851#0" expanded="true" />
-            <element signature="e#10499#10519#0" expanded="true" />
-            <element signature="e#10955#10976#0" expanded="true" />
-            <element signature="e#11491#11512#0" expanded="true" />
-            <element signature="e#12380#12395#0" expanded="true" />
-            <element signature="e#13597#13611#0" expanded="true" />
-            <element signature="e#13963#13977#0" expanded="true" />
-            <element signature="e#14453#14467#0" expanded="true" />
-            <element signature="e#14815#14835#0" expanded="true" />
-            <element signature="e#15139#15153#0" expanded="true" />
-            <element signature="e#15499#15513#0" expanded="true" />
-            <element signature="e#15915#15935#0" expanded="true" />
-            <element signature="e#16295#16309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_quick_match.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="66" selection-start="3066" selection-end="3066" vertical-scroll-proportion="-23.96" vertical-offset="676" max-vertical-offset="1989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="42" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="952">
@@ -806,9 +753,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="919" selection-end="919" vertical-scroll-proportion="0.76992756" vertical-offset="85" max-vertical-offset="2023">
+        <state line="32" column="5" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2023">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_quick_match.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="66" selection-start="3066" selection-end="3066" vertical-scroll-proportion="-23.96" vertical-offset="676" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_soccer.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="321" column="41" selection-start="13547" selection-end="13547" vertical-scroll-proportion="0.33288947" vertical-offset="5207" max-vertical-offset="7293">
+          <folding>
+            <element signature="e#1541#1561#0" expanded="true" />
+            <element signature="e#1946#1967#0" expanded="true" />
+            <element signature="e#2482#2503#0" expanded="true" />
+            <element signature="e#3152#3172#0" expanded="true" />
+            <element signature="e#3557#3578#0" expanded="true" />
+            <element signature="e#4093#4114#0" expanded="true" />
+            <element signature="e#4764#4784#0" expanded="true" />
+            <element signature="e#5221#5242#0" expanded="true" />
+            <element signature="e#5758#5779#0" expanded="true" />
+            <element signature="e#7188#7208#0" expanded="true" />
+            <element signature="e#7644#7665#0" expanded="true" />
+            <element signature="e#8180#8201#0" expanded="true" />
+            <element signature="e#9294#9315#0" expanded="true" />
+            <element signature="e#9830#9851#0" expanded="true" />
+            <element signature="e#10499#10519#0" expanded="true" />
+            <element signature="e#10955#10976#0" expanded="true" />
+            <element signature="e#11491#11512#0" expanded="true" />
+            <element signature="e#12575#12590#0" expanded="true" />
+            <element signature="e#14464#14478#0" expanded="true" />
+            <element signature="e#14830#14844#0" expanded="true" />
+            <element signature="e#15320#15334#0" expanded="true" />
+            <element signature="e#15682#15702#0" expanded="true" />
+            <element signature="e#16006#16020#0" expanded="true" />
+            <element signature="e#16366#16380#0" expanded="true" />
+            <element signature="e#16782#16802#0" expanded="true" />
+            <element signature="e#17162#17176#0" expanded="true" />
           </folding>
         </state>
       </provider>
