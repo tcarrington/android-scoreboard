@@ -27,8 +27,7 @@
                     android:id="@+id/team_1_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="xml hard code 1"
-                    android:textSize="40dp"
+                    android:textSize="40sp"
                     android:textColor="#CC0000"/>
 
             </RelativeLayout>
@@ -157,8 +156,7 @@
                     android:id="@+id/team_2_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="xml hard code 2"
-                    android:textSize="40dp"
+                    android:textSize="40sp"
                     android:textColor="#0099CC"/>
 
             </RelativeLayout>
@@ -281,7 +279,8 @@
         android:layout_gravity="center" >
 
 
-        <RelativeLayout
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1">
@@ -320,19 +319,35 @@
             </RelativeLayout>
 
             <!--add start button/stop/etc -->
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:orientation="horizontal"
                 android:layout_weight="1">
-                <TextView
-                    android:id="@+id/timer"
+                <Button
+                    android:id="@+id/start_clock"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="test"
-                    android:textSize="40sp"
-                    android:textColor="#669900" />
-            </RelativeLayout>
-        </RelativeLayout>
+                    android:layout_weight="1"
+                    android:text="@string/start_clock"
+                    android:textSize="40dp" />
+                <Button
+                    android:id="@+id/stop_clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/stop_clock"
+                    android:textSize="40dp" />
+                <Button
+                    android:id="@+id/reset_clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/reset_clock"
+                    android:textSize="40dp" />
+
+            </LinearLayout>
+        </LinearLayout>
 
 
         <RelativeLayout

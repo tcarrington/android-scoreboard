@@ -48,6 +48,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ca135fb-fbbd-43de-b001-680631445ac2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_soccer.xml" afterPath="$PROJECT_DIR$/res/layout/activity_soccer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TournamentBrackets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +75,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -127,6 +128,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -140,9 +142,7 @@
         <entry file="file://$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="45" column="42" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="952">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,7 +153,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="66" selection-start="3066" selection-end="3066" vertical-scroll-proportion="-23.96" vertical-offset="676" max-vertical-offset="1989">
+            <state line="75" column="66" selection-start="3066" selection-end="3066" vertical-scroll-proportion="0.0" vertical-offset="676" max-vertical-offset="1989">
               <folding />
             </state>
           </provider>
@@ -162,7 +162,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="22" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1037">
+            <state line="39" column="36" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -174,34 +174,36 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="321" column="41" selection-start="13547" selection-end="13547" vertical-scroll-proportion="0.33288947" vertical-offset="5207" max-vertical-offset="7293">
+            <state line="158" column="42" selection-start="6605" selection-end="6605" vertical-scroll-proportion="0.41781682" vertical-offset="2353" max-vertical-offset="7548">
               <folding>
-                <element signature="e#1541#1561#0" expanded="true" />
-                <element signature="e#1946#1967#0" expanded="true" />
-                <element signature="e#2482#2503#0" expanded="true" />
-                <element signature="e#3152#3172#0" expanded="true" />
-                <element signature="e#3557#3578#0" expanded="true" />
-                <element signature="e#4093#4114#0" expanded="true" />
-                <element signature="e#4764#4784#0" expanded="true" />
-                <element signature="e#5221#5242#0" expanded="true" />
-                <element signature="e#5758#5779#0" expanded="true" />
-                <element signature="e#7188#7208#0" expanded="true" />
-                <element signature="e#7644#7665#0" expanded="true" />
-                <element signature="e#8180#8201#0" expanded="true" />
-                <element signature="e#9294#9315#0" expanded="true" />
-                <element signature="e#9830#9851#0" expanded="true" />
-                <element signature="e#10499#10519#0" expanded="true" />
-                <element signature="e#10955#10976#0" expanded="true" />
-                <element signature="e#11491#11512#0" expanded="true" />
-                <element signature="e#12575#12590#0" expanded="true" />
-                <element signature="e#14464#14478#0" expanded="true" />
-                <element signature="e#14830#14844#0" expanded="true" />
-                <element signature="e#15320#15334#0" expanded="true" />
-                <element signature="e#15682#15702#0" expanded="true" />
-                <element signature="e#16006#16020#0" expanded="true" />
-                <element signature="e#16366#16380#0" expanded="true" />
-                <element signature="e#16782#16802#0" expanded="true" />
-                <element signature="e#17162#17176#0" expanded="true" />
+                <element signature="e#1490#1510#0" expanded="true" />
+                <element signature="e#1895#1916#0" expanded="true" />
+                <element signature="e#2431#2452#0" expanded="true" />
+                <element signature="e#3101#3121#0" expanded="true" />
+                <element signature="e#3506#3527#0" expanded="true" />
+                <element signature="e#4042#4063#0" expanded="true" />
+                <element signature="e#4713#4733#0" expanded="true" />
+                <element signature="e#5170#5191#0" expanded="true" />
+                <element signature="e#5707#5728#0" expanded="true" />
+                <element signature="e#7086#7106#0" expanded="true" />
+                <element signature="e#7542#7563#0" expanded="true" />
+                <element signature="e#8078#8099#0" expanded="true" />
+                <element signature="e#9192#9213#0" expanded="true" />
+                <element signature="e#9728#9749#0" expanded="true" />
+                <element signature="e#10397#10417#0" expanded="true" />
+                <element signature="e#10853#10874#0" expanded="true" />
+                <element signature="e#11389#11410#0" expanded="true" />
+                <element signature="e#12514#12529#0" expanded="true" />
+                <element signature="e#13978#13999#0" expanded="true" />
+                <element signature="e#14312#14332#0" expanded="true" />
+                <element signature="e#15132#15146#0" expanded="true" />
+                <element signature="e#15498#15512#0" expanded="true" />
+                <element signature="e#15988#16002#0" expanded="true" />
+                <element signature="e#16350#16370#0" expanded="true" />
+                <element signature="e#16674#16688#0" expanded="true" />
+                <element signature="e#17034#17048#0" expanded="true" />
+                <element signature="e#17450#17470#0" expanded="true" />
+                <element signature="e#17830#17844#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,9 +213,7 @@
         <entry file="file://$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="32" column="5" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2023">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -255,11 +255,11 @@
         <option value="$PROJECT_DIR$/res/layout/activity_football.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_baseball.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_tennis.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_quick_match.xml" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/MatchInformation.java" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_soccer.xml" />
       </list>
     </option>
@@ -300,7 +300,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -389,6 +388,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,19 +437,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -475,6 +462,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -614,7 +614,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39636752" sideWeight="0.75589067" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34508547" sideWeight="0.799246" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -623,12 +623,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20358153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24410933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.200754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.8302207" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1388889" sideWeight="0.75589067" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.120726496" sideWeight="0.799246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23374176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -728,19 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="42" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="952">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -754,9 +745,7 @@
     <entry file="file://$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="5" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2023">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +754,14 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="66" selection-start="3066" selection-end="3066" vertical-scroll-proportion="-23.96" vertical-offset="676" max-vertical-offset="1989">
+        <state line="75" column="66" selection-start="3066" selection-end="3066" vertical-scroll-proportion="0.0" vertical-offset="676" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="36" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
@@ -775,34 +771,36 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="321" column="41" selection-start="13547" selection-end="13547" vertical-scroll-proportion="0.33288947" vertical-offset="5207" max-vertical-offset="7293">
+        <state line="158" column="42" selection-start="6605" selection-end="6605" vertical-scroll-proportion="0.41781682" vertical-offset="2353" max-vertical-offset="7548">
           <folding>
-            <element signature="e#1541#1561#0" expanded="true" />
-            <element signature="e#1946#1967#0" expanded="true" />
-            <element signature="e#2482#2503#0" expanded="true" />
-            <element signature="e#3152#3172#0" expanded="true" />
-            <element signature="e#3557#3578#0" expanded="true" />
-            <element signature="e#4093#4114#0" expanded="true" />
-            <element signature="e#4764#4784#0" expanded="true" />
-            <element signature="e#5221#5242#0" expanded="true" />
-            <element signature="e#5758#5779#0" expanded="true" />
-            <element signature="e#7188#7208#0" expanded="true" />
-            <element signature="e#7644#7665#0" expanded="true" />
-            <element signature="e#8180#8201#0" expanded="true" />
-            <element signature="e#9294#9315#0" expanded="true" />
-            <element signature="e#9830#9851#0" expanded="true" />
-            <element signature="e#10499#10519#0" expanded="true" />
-            <element signature="e#10955#10976#0" expanded="true" />
-            <element signature="e#11491#11512#0" expanded="true" />
-            <element signature="e#12575#12590#0" expanded="true" />
-            <element signature="e#14464#14478#0" expanded="true" />
-            <element signature="e#14830#14844#0" expanded="true" />
-            <element signature="e#15320#15334#0" expanded="true" />
-            <element signature="e#15682#15702#0" expanded="true" />
-            <element signature="e#16006#16020#0" expanded="true" />
-            <element signature="e#16366#16380#0" expanded="true" />
-            <element signature="e#16782#16802#0" expanded="true" />
-            <element signature="e#17162#17176#0" expanded="true" />
+            <element signature="e#1490#1510#0" expanded="true" />
+            <element signature="e#1895#1916#0" expanded="true" />
+            <element signature="e#2431#2452#0" expanded="true" />
+            <element signature="e#3101#3121#0" expanded="true" />
+            <element signature="e#3506#3527#0" expanded="true" />
+            <element signature="e#4042#4063#0" expanded="true" />
+            <element signature="e#4713#4733#0" expanded="true" />
+            <element signature="e#5170#5191#0" expanded="true" />
+            <element signature="e#5707#5728#0" expanded="true" />
+            <element signature="e#7086#7106#0" expanded="true" />
+            <element signature="e#7542#7563#0" expanded="true" />
+            <element signature="e#8078#8099#0" expanded="true" />
+            <element signature="e#9192#9213#0" expanded="true" />
+            <element signature="e#9728#9749#0" expanded="true" />
+            <element signature="e#10397#10417#0" expanded="true" />
+            <element signature="e#10853#10874#0" expanded="true" />
+            <element signature="e#11389#11410#0" expanded="true" />
+            <element signature="e#12514#12529#0" expanded="true" />
+            <element signature="e#13978#13999#0" expanded="true" />
+            <element signature="e#14312#14332#0" expanded="true" />
+            <element signature="e#15132#15146#0" expanded="true" />
+            <element signature="e#15498#15512#0" expanded="true" />
+            <element signature="e#15988#16002#0" expanded="true" />
+            <element signature="e#16350#16370#0" expanded="true" />
+            <element signature="e#16674#16688#0" expanded="true" />
+            <element signature="e#17034#17048#0" expanded="true" />
+            <element signature="e#17450#17470#0" expanded="true" />
+            <element signature="e#17830#17844#0" expanded="true" />
           </folding>
         </state>
       </provider>
