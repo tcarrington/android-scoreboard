@@ -1,6 +1,7 @@
 package tournament.brackets;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -15,6 +16,20 @@ public class SoccerActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soccer);
+
+        Intent intent = getIntent();
+        soccerInformation.team1Name = intent.getStringExtra("TEAM_1");
+        soccerInformation.team2Name = intent.getStringExtra("TEAM_2");
+
+
+
+        TextView team1Name = (TextView) findViewById(R.id.team_1_name);
+        TextView team2Name = (TextView) findViewById(R.id.team_2_name);
+
+        team1Name.setText(soccerInformation.team1Name);
+        team2Name.setText(soccerInformation.team2Name);
+
+
     }
 
     //Score Increment
@@ -95,6 +110,5 @@ public class SoccerActivity extends Activity {
         TextView textView =  (TextView) findViewById(R.id.team_2_saves);
         textView.setText(String.valueOf(soccerInformation.team2Saves));
     }
-
 
 }

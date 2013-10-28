@@ -7,13 +7,12 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.Spinner;
 
 import java.util.ArrayList;
 
 
 public class QuickMatchActivity extends ListActivity {
-    ArrayList<String> playerListItems = new ArrayList<String>();
+    ArrayList<String> teamListItems = new ArrayList<String>();
 
     ArrayAdapter<String> adapter;
 
@@ -22,7 +21,7 @@ public class QuickMatchActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quick_match);
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, playerListItems);
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, teamListItems);
         setListAdapter(adapter);
     }
 
@@ -35,15 +34,18 @@ public class QuickMatchActivity extends ListActivity {
 
     //add players to list (dynamic)
     public void addPlayerItems(View view) {
-        String playerName = ((EditText)findViewById(R.id.playernameinput)).getText().toString();
-        playerListItems.add(playerName + " " + ++totalPlayers);
+        String playerName = ((EditText)findViewById(R.id.team_name_input)).getText().toString();
+        teamListItems.add(playerName + " " + ++totalPlayers);
         adapter.notifyDataSetChanged();
-        ((EditText) findViewById(R.id.playernameinput)).setText("");
+        ((EditText) findViewById(R.id.team_name_input)).setText("");
     }
 
-    //create match. save and push data to target activity (QuickMatchSBActivity.java)
     public void startMatch(View view) {
         Intent intent = new Intent(this, SoccerActivity.class);
+        String team1 = teamListItems.get(0);
+        String team2 = teamListItems.get(1);
+        intent.putExtra("TEAM_1", team1);
+        intent.putExtra("TEAM_2", team2);
         startActivity(intent);
     }
 }

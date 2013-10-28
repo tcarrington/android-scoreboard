@@ -10,6 +10,9 @@ public class MatchInformation {
     int team1 = 1;
     int team2 = 2;
 
+    String team1Name;
+    String team2Name;
+
     int team1Score = 0;
     int team2Score = 0;
     int team1Shots = 0;

@@ -21,9 +21,9 @@
     <!-- Quickmatch Activity -->
     <string name="matchname">Match Name:</string>
     <string name="matchnameinput">USA vs. UK</string>
-    <string name="playername">Player\'s Name</string>
-    <string name="playernameinput">Player 1</string>
-    <string name="addplayer">+ Player</string>
+    <string name="teamname">Team\'s Name</string>
+    <string name="teamnameinput">Team 1</string>
+    <string name="add_team_button">+ Team</string>
     <string name="start">START!</string>
     <string name="matchtype">Match Type:</string>
 
