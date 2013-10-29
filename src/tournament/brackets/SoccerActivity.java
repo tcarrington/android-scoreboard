@@ -20,14 +20,17 @@ public class SoccerActivity extends Activity {
         Intent intent = getIntent();
         soccerInformation.team1Name = intent.getStringExtra("TEAM_1");
         soccerInformation.team2Name = intent.getStringExtra("TEAM_2");
+        soccerInformation.matchName = intent.getStringExtra("MATCH_NAME");
 
 
 
         TextView team1Name = (TextView) findViewById(R.id.team_1_name);
         TextView team2Name = (TextView) findViewById(R.id.team_2_name);
+        TextView matchName = (TextView) findViewById(R.id.match_name);
 
         team1Name.setText(soccerInformation.team1Name);
         team2Name.setText(soccerInformation.team2Name);
+        matchName.setText(soccerInformation.matchName);
 
 
     }

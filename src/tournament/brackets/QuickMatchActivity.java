@@ -42,10 +42,12 @@ public class QuickMatchActivity extends ListActivity {
 
     public void startMatch(View view) {
         Intent intent = new Intent(this, SoccerActivity.class);
+        String matchName = ((EditText)findViewById(R.id.match_name_input)).getText().toString();
         String team1 = teamListItems.get(0);
         String team2 = teamListItems.get(1);
         intent.putExtra("TEAM_1", team1);
         intent.putExtra("TEAM_2", team2);
+        intent.putExtra("MATCH_NAME", matchName);
         startActivity(intent);
     }
 }

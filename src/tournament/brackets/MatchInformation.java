@@ -12,6 +12,7 @@ public class MatchInformation {
 
     String team1Name;
     String team2Name;
+    String matchName;
 
     int team1Score = 0;
     int team2Score = 0;
