@@ -27,6 +27,7 @@
                     android:id="@+id/team_1_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:text="<name>"
                     android:textSize="40sp"
                     android:textColor="#CC0000"/>
 
@@ -156,6 +157,7 @@
                     android:id="@+id/team_2_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:text="<name>"
                     android:textSize="40sp"
                     android:textColor="#0099CC"/>
 
@@ -446,6 +448,17 @@
                 android:id="@+id/match_name"
                 android:layout_height="wrap_content"
                 android:layout_width="fill_parent"
+                android:textSize="40sp"/>
+            <TextView
+                android:id="@+id/end_match"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textSize="40sp"/>
+            <Button
+                android:id="@+id/end_match_button"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="End Match"
                 android:textSize="40sp"/>
         </RelativeLayout>
 
