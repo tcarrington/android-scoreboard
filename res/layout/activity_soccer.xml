@@ -27,7 +27,7 @@
                     android:id="@+id/team_1_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="<name>"
+                    android:text="temp"
                     android:textSize="40sp"
                     android:textColor="#CC0000"/>
 
@@ -157,7 +157,7 @@
                     android:id="@+id/team_2_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="<name>"
+                    android:text="temp"
                     android:textSize="40sp"
                     android:textColor="#0099CC"/>
 

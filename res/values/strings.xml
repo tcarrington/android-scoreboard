@@ -24,6 +24,7 @@
     <string name="teamname">Team\'s Name</string>
     <string name="teamnameinput">Team 1</string>
     <string name="add_team_button">+ Team</string>
+    <string name="add_player">+ Player</string>
     <string name="start">START!</string>
     <string name="matchtype">Match Type:</string>
 

@@ -99,7 +99,31 @@
         android:layout_height="fill_parent"
         android:layout_weight="1"
         android:orientation="vertical">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/team_names_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test"
+                android:textSize="40sp"
+                android:textColor="#669900" />
 
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/add_player"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/add_player"
+                android:onClick="addPlayer"/>
+        </LinearLayout>
         <ListView
             android:id="@android:id/list"
             android:layout_width="wrap_content"
