@@ -1,7 +1,405 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/team_1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="temp"
+                    android:textSize="40sp"
+                    android:textColor="#CC0000"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/score_text_1"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/team_score"
+                    android:textSize="40sp"
+                    android:textColor="#CC0000" />
+                <Button
+                    android:id="@+id/score_increment_1"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/score_text_1"
+                    android:text="@string/increment_1"
+                    android:textSize="40sp"
+                    android:textColor="#CC0000"
+                    android:background="@android:color/transparent"
+                    android:onClick="team1ScoreIncrement"/>
+                <Button
+                    android:id="@+id/score_decrement_1"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/score_increment_1"
+                    android:text="@string/decrement_1"
+                    android:textSize="40sp"
+                    android:textColor="#CC0000"
+                    android:background="@android:color/transparent"
+                    android:onClick="team1ScoreDecrement"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/shots_text_1"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/team_shots"
+                    android:textSize="40sp"
+                    android:textColor="#CC0000" />
+                <Button
+                    android:id="@+id/shots_increment_1"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/shots_text_1"
+                    android:text="@string/increment_1"
+                    android:textSize="40sp"
+                    android:textColor="#CC0000"
+                    android:background="@android:color/transparent"
+                    android:onClick="team1ShotsIncrement"/>
+                <Button
+                    android:id="@+id/shots_decrement_1"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/shots_increment_1"
+                    android:text="@string/decrement_1"
+                    android:textSize="40sp"
+                    android:textColor="#CC0000"
+                    android:background="@android:color/transparent"
+                    android:onClick="team1ShotsDecrement"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/team_2_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="temp"
+                    android:textSize="40sp"
+                    android:textColor="#0099CC"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/score_text_2"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/team_score"
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:textColor="#0099CC" />
+                <Button
+                    android:id="@+id/score_increment_2"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/score_text_2"
+                    android:text="@string/increment_1"
+                    android:textSize="40sp"
+                    android:textColor="#0099CC"
+                    android:background="@android:color/transparent"
+                    android:onClick="team2ScoreIncrement"/>
+                <Button
+                    android:id="@+id/score_decrement_2"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/score_increment_2"
+                    android:text="@string/decrement_1"
+                    android:textSize="40sp"
+                    android:textColor="#0099CC"
+                    android:background="@android:color/transparent"
+                    android:onClick="team2ScoreDecrement"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/shots_text_2"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:text="SHOTS"
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:textColor="#0099CC" />
+                <Button
+                    android:id="@+id/shots_increment_2"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/shots_text_2"
+                    android:text="@string/increment_1"
+                    android:textSize="40sp"
+                    android:textColor="#0099CC"
+                    android:background="@android:color/transparent"
+                    android:onClick="team2ShotsIncrement"/>
+                <Button
+                    android:id="@+id/shots_decrement_2"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/shots_increment_2"
+                    android:text="@string/decrement_1"
+                    android:textSize="40sp"
+                    android:textColor="#0099CC"
+                    android:background="@android:color/transparent"
+                    android:onClick="team2ShotsDecrement"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center" >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clock"
+                    android:textSize="40sp"
+                    android:textColor="#669900" />
+
+                <Button
+                    android:id="@+id/quarter_1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/timer"
+                    android:text="1st"
+                    android:textSize="40sp"
+                    android:background="@android:color/transparent" />
+
+                <Button
+                    android:id="@+id/quarter_2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/half_1"
+                    android:text="2nd"
+                    android:textSize="40sp"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/quarter_3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/timer"
+                    android:text="1st"
+                    android:textSize="40sp"
+                    android:background="@android:color/transparent" />
+
+                <Button
+                    android:id="@+id/quarter_4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/half_1"
+                    android:text="2nd"
+                    android:textSize="40sp"
+                    android:background="@android:color/transparent"/>
+
+            </RelativeLayout>
+
+            <!--add start button/stop/etc -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/start_clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/start_clock"
+                    android:textSize="40dp" />
+                <Button
+                    android:id="@+id/stop_clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/stop_clock"
+                    android:textSize="40dp" />
+                <Button
+                    android:id="@+id/reset_clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="@string/reset_clock"
+                    android:textSize="40dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/team_1_score"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/zero"
+                android:textSize="60sp"
+                android:textColor="#CC0000" />
+
+            <TextView
+                android:id="@+id/total_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/team_1_score"
+                android:text="@string/total_score"
+                android:textSize="60sp" />
+
+            <TextView
+                android:id="@+id/team_2_score"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/total_score"
+                android:text="@string/zero"
+                android:textSize="60sp"
+                android:textColor="#0099CC" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/team_1_shots"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/zero"
+                android:textSize="40sp"
+                android:textColor="#CC0000"/>
+            <TextView
+                android:id="@+id/team_shots"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/team_1_shots"
+                android:text="@string/team_shots"
+                android:textSize="40sp"/>
+            <TextView
+                android:id="@+id/team_2_shots"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/team_shots"
+                android:text="@string/zero"
+                android:textSize="40sp"
+                android:textColor="#0099CC"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAlignment="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/match_name"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textSize="40sp"/>
+            <TextView
+                android:id="@+id/end_match"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textSize="40sp"/>
+            <Button
+                android:id="@+id/end_match_button"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="End Match"
+                android:textSize="40sp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
