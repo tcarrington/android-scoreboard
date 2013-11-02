@@ -7,7 +7,9 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 
+import java.nio.channels.FileLock;
 import java.util.ArrayList;
 
 
@@ -46,8 +48,30 @@ public class QuickMatchActivity extends ListActivity {
     }
 
     public void startMatch(View view) {
-        Intent intent = new Intent(this, SoccerActivity.class);
-        String matchName = ((EditText)findViewById(R.id.match_name_input)).getText().toString();
+        Intent intent;
+        String matchName = ((Spinner)findViewById(R.id.spinner)).getSelectedItem().toString();
+
+       // String matchName = ((EditText)findViewById(R.id.match_name_input)).getText().toString();
+        if(matchName.equals("Soccer")) {
+            intent = new Intent(this, SoccerActivity.class);
+        }
+        else if(matchName.equals("Basketball")) {
+            intent = new Intent(this, BasketballActivity.class);
+        }
+        else if(matchName.equals("Tennis")) {
+            intent = new Intent(this, TennisActivity.class);
+        }
+        else if(matchName.equals("Football")) {
+            intent = new Intent(this, FootballActivity.class);
+        }
+        else if(matchName.equals("Basecall")) {
+            intent = new Intent(this, BaseballActivity.class);
+        }
+        else {
+            //need to define default activity
+            //intent = new Intent(this, DefaultActivity.class);
+            intent  = new Intent(this, SoccerActivity.class);
+        }
         //String team1 = teamListItems.get(0);
         //String team2 = teamListItems.get(1);
         //intent.putExtra("TEAM_1", team1);
@@ -55,4 +79,5 @@ public class QuickMatchActivity extends ListActivity {
         intent.putExtra("MATCH_NAME", matchName);
         startActivity(intent);
     }
+
 }
