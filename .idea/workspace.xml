@@ -35,7 +35,7 @@
       </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/activity_quick_match.xml">
         <config>
-          <device>Nexus 7 2013</device>
+          <device>10.1in WXGA (Tablet)</device>
           <state>Landscape</state>
           <theme>@style/AppTheme</theme>
         </config>
@@ -61,15 +61,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca135fb-fbbd-43de-b001-680631445ac2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/BaseballActivity.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/BaseballActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/BasketballActivity.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/BasketballActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/FootballActivity.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/FootballActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/TennisActivity.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/TennisActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_baseball.xml" afterPath="$PROJECT_DIR$/res/layout/activity_baseball.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_basketball.xml" afterPath="$PROJECT_DIR$/res/layout/activity_basketball.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_football.xml" afterPath="$PROJECT_DIR$/res/layout/activity_football.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_tennis.xml" afterPath="$PROJECT_DIR$/res/layout/activity_tennis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java" afterPath="$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_quick_match.xml" afterPath="$PROJECT_DIR$/res/layout/activity_quick_match.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/array.xml" afterPath="$PROJECT_DIR$/res/values/array.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TournamentBrackets.iws" />
@@ -96,6 +91,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -132,7 +128,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -146,7 +141,47 @@
       <file leaf-file-name="QuickMatchActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="44" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.6142473" vertical-offset="495" max-vertical-offset="1326">
+            <state line="54" column="96" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.20026882" vertical-offset="599" max-vertical-offset="1343">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="50" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.0" vertical-offset="531" max-vertical-offset="1275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_quick_match.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_quick_match.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="57" selection-start="3238" selection-end="3254" vertical-scroll-proportion="-12.28" vertical-offset="1002" max-vertical-offset="2941">
+              <folding>
+                <element signature="e#1307#1326#0" expanded="true" />
+                <element signature="e#1578#1602#0" expanded="true" />
+                <element signature="e#2111#2130#0" expanded="true" />
+                <element signature="e#3144#3162#0" expanded="true" />
+                <element signature="e#3414#3437#0" expanded="true" />
+                <element signature="e#3949#3967#0" expanded="true" />
+                <element signature="e#4219#4242#0" expanded="true" />
+                <element signature="e#4873#4886#0" expanded="true" />
+                <element signature="e#6136#6156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/array.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="8" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -158,29 +193,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="264" column="70" selection-start="10588" selection-end="10588" vertical-scroll-proportion="-9.88" vertical-offset="4241" max-vertical-offset="6715">
-              <folding>
-                <element signature="e#1530#1550#0" expanded="true" />
-                <element signature="e#1935#1956#0" expanded="true" />
-                <element signature="e#2471#2492#0" expanded="true" />
-                <element signature="e#3141#3161#0" expanded="true" />
-                <element signature="e#3546#3567#0" expanded="true" />
-                <element signature="e#4082#4103#0" expanded="true" />
-                <element signature="e#5710#5730#0" expanded="true" />
-                <element signature="e#6166#6187#0" expanded="true" />
-                <element signature="e#6702#6723#0" expanded="true" />
-                <element signature="e#7816#7837#0" expanded="true" />
-                <element signature="e#8352#8373#0" expanded="true" />
-                <element signature="e#11222#11243#0" expanded="true" />
-                <element signature="e#11624#11644#0" expanded="true" />
-                <element signature="e#12026#12047#0" expanded="true" />
-                <element signature="e#12512#12526#0" expanded="true" />
-                <element signature="e#12877#12898#0" expanded="true" />
-                <element signature="e#13205#13219#0" expanded="true" />
-                <element signature="e#13695#13709#0" expanded="true" />
-                <element signature="e#14057#14077#0" expanded="true" />
-                <element signature="e#14381#14395#0" expanded="true" />
-              </folding>
+            <state line="264" column="70" selection-start="10588" selection-end="10588" vertical-scroll-proportion="0.0" vertical-offset="4488" max-vertical-offset="6715">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,16 +202,7 @@
       <file leaf-file-name="BaseballActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tournament/brackets/BaseballActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="49" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasketballActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tournament/brackets/BasketballActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="51" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="11" column="49" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -206,7 +211,7 @@
       <file leaf-file-name="FootballActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tournament/brackets/FootballActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="49" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="11" column="49" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -215,28 +220,7 @@
       <file leaf-file-name="SoccerActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="55" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_baseball.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_baseball.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="51" selection-start="0" selection-end="408" vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TennisActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tournament/brackets/TennisActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="323" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="87" column="5" selection-start="3324" selection-end="3324" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2057">
               <folding />
             </state>
           </provider>
@@ -248,7 +232,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="235" selection-end="235" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="340">
+            <state line="6" column="41" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -260,7 +244,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="340">
+            <state line="7" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -284,12 +268,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/tournament/brackets/QuickMatchSBActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/MatchInformation.java" />
-        <option value="$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_quick_match.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_soccer.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_baseball.xml" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/BaseballActivity.java" />
@@ -299,6 +280,9 @@
         <option value="$PROJECT_DIR$/res/layout/activity_basketball.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_football.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_tennis.xml" />
+        <option value="$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_quick_match.xml" />
+        <option value="$PROJECT_DIR$/res/values/array.xml" />
         <option value="$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java" />
       </list>
     </option>
@@ -338,6 +322,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -426,8 +412,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,19 +460,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -514,6 +485,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -682,13 +666,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31748727" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12071078" sideWeight="0.84959817" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23374176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23374176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -701,8 +685,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20358153" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15040183" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.8302207" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -718,23 +702,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_home_screen.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="38" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="1122">
@@ -759,16 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_quick_match.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="16" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-9.56" vertical-offset="526" max-vertical-offset="2397">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_baseball.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -779,23 +736,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tournament/brackets/BaseballActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tournament/brackets/BasketballActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="51" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="55" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
           <folding />
         </state>
       </provider>
@@ -812,29 +755,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="70" selection-start="10588" selection-end="10588" vertical-scroll-proportion="-9.88" vertical-offset="4241" max-vertical-offset="6715">
-          <folding>
-            <element signature="e#1530#1550#0" expanded="true" />
-            <element signature="e#1935#1956#0" expanded="true" />
-            <element signature="e#2471#2492#0" expanded="true" />
-            <element signature="e#3141#3161#0" expanded="true" />
-            <element signature="e#3546#3567#0" expanded="true" />
-            <element signature="e#4082#4103#0" expanded="true" />
-            <element signature="e#5710#5730#0" expanded="true" />
-            <element signature="e#6166#6187#0" expanded="true" />
-            <element signature="e#6702#6723#0" expanded="true" />
-            <element signature="e#7816#7837#0" expanded="true" />
-            <element signature="e#8352#8373#0" expanded="true" />
-            <element signature="e#11222#11243#0" expanded="true" />
-            <element signature="e#11624#11644#0" expanded="true" />
-            <element signature="e#12026#12047#0" expanded="true" />
-            <element signature="e#12512#12526#0" expanded="true" />
-            <element signature="e#12877#12898#0" expanded="true" />
-            <element signature="e#13205#13219#0" expanded="true" />
-            <element signature="e#13695#13709#0" expanded="true" />
-            <element signature="e#14057#14077#0" expanded="true" />
-            <element signature="e#14381#14395#0" expanded="true" />
-          </folding>
+        <state line="264" column="70" selection-start="10588" selection-end="10588" vertical-scroll-proportion="0.0" vertical-offset="4488" max-vertical-offset="6715">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +765,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="340">
+        <state line="7" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
@@ -853,7 +775,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="235" selection-end="235" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="340">
+        <state line="6" column="41" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
@@ -865,9 +787,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="50" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.0" vertical-offset="531" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tournament/brackets/BaseballActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="49" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tournament/brackets/SoccerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="5" selection-start="3324" selection-end="3324" vertical-scroll-proportion="0.0" vertical-offset="888" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_quick_match.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="57" selection-start="3238" selection-end="3254" vertical-scroll-proportion="-12.28" vertical-offset="1002" max-vertical-offset="2941">
+          <folding>
+            <element signature="e#1307#1326#0" expanded="true" />
+            <element signature="e#1578#1602#0" expanded="true" />
+            <element signature="e#2111#2130#0" expanded="true" />
+            <element signature="e#3144#3162#0" expanded="true" />
+            <element signature="e#3414#3437#0" expanded="true" />
+            <element signature="e#3949#3967#0" expanded="true" />
+            <element signature="e#4219#4242#0" expanded="true" />
+            <element signature="e#4873#4886#0" expanded="true" />
+            <element signature="e#6136#6156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tournament/brackets/QuickMatchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="44" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.6142473" vertical-offset="495" max-vertical-offset="1326">
+        <state line="54" column="96" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.20026882" vertical-offset="599" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>

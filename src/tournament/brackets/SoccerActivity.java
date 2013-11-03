@@ -87,7 +87,6 @@ public class SoccerActivity extends Activity {
         textView.setText(String.valueOf(soccerInformation.team2Shots));
     }
 
-
     //Saves Increment
     public void team1SavesIncrement(View view){
         soccerInformation.addSave(1, soccerInformation.team1);

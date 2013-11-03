@@ -41,30 +41,33 @@ public class QuickMatchActivity extends ListActivity {
 
     //add players to list (dynamic)
     public void addPlayerItems(View view) {
-        String playerName = ((EditText)findViewById(R.id.team_name_input)).getText().toString();
+        //String playerName = ((EditText)findViewById(R.id.team_name_input)).getText().toString();
         //teamListItems.add(playerName + " " + ++totalPlayers);
         //adapter.notifyDataSetChanged();
-        ((EditText) findViewById(R.id.team_name_input)).setText("");
+        //((EditText) findViewById(R.id.team_name_input)).setText("");
     }
 
     public void startMatch(View view) {
         Intent intent;
-        String matchName = ((Spinner)findViewById(R.id.spinner)).getSelectedItem().toString();
 
-       // String matchName = ((EditText)findViewById(R.id.match_name_input)).getText().toString();
-        if(matchName.equals("Soccer")) {
+        //TODO: try/catch structure here to catch no-input fields
+        String matchType = ((Spinner)findViewById(R.id.spinner)).getSelectedItem().toString();
+        String matchName = ((EditText)findViewById(R.id.match_name_input)).getText().toString();
+        String team1 = ((EditText)findViewById(R.id.team_name_input1)).getText().toString();
+        String team2 = ((EditText)findViewById(R.id.team_name_input2)).getText().toString();
+        if(matchType.equals("Soccer")) {
             intent = new Intent(this, SoccerActivity.class);
         }
-        else if(matchName.equals("Basketball")) {
+        else if(matchType.equals("Basketball")) {
             intent = new Intent(this, BasketballActivity.class);
         }
-        else if(matchName.equals("Tennis")) {
+        else if(matchType.equals("Tennis")) {
             intent = new Intent(this, TennisActivity.class);
         }
-        else if(matchName.equals("Football")) {
+        else if(matchType.equals("Football")) {
             intent = new Intent(this, FootballActivity.class);
         }
-        else if(matchName.equals("Basecall")) {
+        else if(matchType.equals("Basecall")) {
             intent = new Intent(this, BaseballActivity.class);
         }
         else {
@@ -72,10 +75,8 @@ public class QuickMatchActivity extends ListActivity {
             //intent = new Intent(this, DefaultActivity.class);
             intent  = new Intent(this, SoccerActivity.class);
         }
-        //String team1 = teamListItems.get(0);
-        //String team2 = teamListItems.get(1);
-        //intent.putExtra("TEAM_1", team1);
-        //intent.putExtra("TEAM_2", team2);
+        intent.putExtra("TEAM_1", team1);
+        intent.putExtra("TEAM_2", team2);
         intent.putExtra("MATCH_NAME", matchName);
         startActivity(intent);
     }
