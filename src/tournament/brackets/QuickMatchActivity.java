@@ -20,7 +20,6 @@ public class QuickMatchActivity extends ListActivity {
     ArrayAdapter<String> adapter1;
     ArrayAdapter<String> adapter2;
 
-    int totalPlayers = 0;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,7 +66,7 @@ public class QuickMatchActivity extends ListActivity {
         else if(matchType.equals("Football")) {
             intent = new Intent(this, FootballActivity.class);
         }
-        else if(matchType.equals("Basecall")) {
+        else if(matchType.equals("Baseball")) {
             intent = new Intent(this, BaseballActivity.class);
         }
         else {

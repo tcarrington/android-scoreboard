@@ -73,4 +73,6 @@ public class MatchInformation {
         else if(team == team2)
             team2Saves-=point;
     }
+
+    //add other score increment types? how to handle tennis?
 }
