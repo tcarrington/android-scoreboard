@@ -52,19 +52,23 @@
                     android:value="tournament.brackets.HomeScreenActivity" />
         </activity>
         <activity
-            android:name="tournament.brackets.SoccerActivity" />
-        <activity android:name=".BasketballActivity" />
-        <activity android:name=".TennisActivity" />
-        <activity android:name=".FootballActivity" />
-        <activity android:name=".BaseballActivity" />
-        <activity android:name=".DefaultActivity" />
-        android:screenOrientation="landscape"
-            android:label="@string/title_activity_create_tournament_settings"
-            android:parentActivityName="tournament.brackets.HomeScreenActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="tournament.brackets.HomeScreenActivity" />
-
+            android:name="tournament.brackets.SoccerActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="tournament.brackets.BasketballActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="tournament.brackets.TennisActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="tournament.brackets.FootballActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="tournament.brackets.BaseballActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="tournament.brackets.DefaultActivity"
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>
